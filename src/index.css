@@ -60,3 +60,58 @@
   margin-bottom: 8px;
   font-size: 20px;
 }
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: var(--pink);
+  margin-bottom: 20px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+/* blog post */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: var(--pink);
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  display: block;
+  outline: none;
+  text-decoration: none;
+}
+
+.create button {
+  background-color: var(--pink);
+  color: #fff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+}
